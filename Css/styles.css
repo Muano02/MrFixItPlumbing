@@ -375,3 +375,208 @@ footer .footer-social img:hover {
     }
 
 }
+
+
+/* =========================
+   About Page Styles
+   ========================= */
+
+/* About Section */
+#about {
+    padding: 3px 2px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#about img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #004080;
+
+}
+
+.quick-actions {
+    color: #004080;
+}
+
+#about p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Get in Touch Section */
+#get-in-touch {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+#get-in-touch h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info,
+.quick-actions {
+    flex: 1 1 45%;
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions p {
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: #004080;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+.btn:hover {
+    background: #002a59;
+}
+
+.btn:focus,
+.contact-form button:focus {
+    outline: 2px solid #ffcc00;
+    outline-offset: 2px;
+}
+
+/* Team List */
+#about ul {
+    list-style: none;
+    margin-top: 1.5rem;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+#team {
+    /* padding: 3rem 2rem; */
+    text-align: center;
+}
+
+#team h3 {
+    font-size: 2rem;
+    /* color: #004080; */
+    margin-bottom: 2rem;
+}
+
+/* Container for cards */
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+/* Individual team card */
+.team-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.team-card h4 {
+    font-size: 1.2rem;
+    color: #004080;
+    margin-bottom: 0.5rem;
+}
+
+.team-card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Responsive */
+/* Responsive Adjustments About Page */
+@media (max-width: 768px) {
+
+    #about img {
+        padding-top: 145px;
+    }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+
+    .two-column {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    #about {
+        padding-top: 147px;
+    }
+
+    #about img {
+        padding-top: 1px;
+    }
+
+}
+
+
