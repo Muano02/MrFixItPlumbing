@@ -5,48 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonials - Mr. FixIt Plumbing</title>
+    <link rel="icon" type="image/png" href="Images/Mr Fix It logo.png">
     <!-- Link to external CSS stylesheet -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Css/styles.css">
 </head>
 
 <body>
     <!-- Header section with website title and navigation menu -->
     <header>
-          <!-- Company Logo with link back to homepage -->
+        <!-- Logo -->
         <h1>
             <a href="index.html">
-                <img src="Images/MrFixitLogo.png" alt="Mr. FixIt Plumbing Logo" />
+                <img src="Images/Logo.png" alt="Mr. FixIt Plumbing Logo">
             </a>
         </h1>
 
-        <!-- Navigation menu linking to all pages -->
+        <!-- Hamburger toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="service.html">Services</a></li>
+                <li><a href="testimonials.html" class="active">Testimonials</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content section -->
-    <main>
+    <main class="testimonial">
         <!-- Testimonials Section -->
         <section id="testimonials">
             <h2>What Our Clients Say</h2>
             <!-- Individual testimonial entries -->
-            <p>"Mr. FixIt came quickly and saved us from a burst geyser! Highly recommend."</p>
-            <p>"Professional and affordable service. They fixed our blocked drains in no time."</p>
-            <p>"Affordable, honest, and professional – the best plumbing service in town."</p>
-            <p>"Quick response and thorough work. Our blocked drains are completely cleared."</p>
-            <p>"Courteous staff and high-quality service. I highly recommend MrFixIt Plumbing."</p>
+            <div class="testimonial-grid">
+
+
+                <p>"Mr. FixIt came quickly and saved us from a burst geyser! Highly recommend."
+                    </br> <span class="testimonial-name">Sarah D., Sandton</span>
+                </p>
+
+                <p>"Professional and affordable service. They fixed our blocked drains in no time."
+                    </br> <span class="testimonial-name">Ruan Jacobs., Midrand</span>
+                </p>
+
+                <p>"Affordable, honest, and professional – the best plumbing service in town."
+                    </br> <span class="testimonial-name">John M., Midrand</span>
+                </p>
+
+                <p>"Quick response and thorough work. Our blocked drains are completely cleared."
+                    </br> <span class="testimonial-name">Thabo M., Midrand</span>
+                </p>
+                <p>"Courteous staff and high-quality service. I highly recommend MrFixIt Plumbing."
+                    </br> <span class="testimonial-name">Themba N., Pretoria</span>
+                </p>
+                <p>"The team was punctual, friendly, and very skilled. Our new geyser installation was flawless."
+                    </br> <span class="testimonial-name">John M., Midrand</span>
+                </p>
+
+                <p>"Excellent service! They repaired our leaking pipes without any hassle."
+                    </br> <span class="testimonial-name">Nomsa Dlamini., Midrand</span>
+                </p>
+                <p>"I love how clean and tidy they left the place after fixing our plumbing issues."
+                    </br> <span class="testimonial-name">Thandiwe N., Midrand</span>
+                </p>
+                <p>"Prompt, reliable, and affordable – MrFixIt Plumbing is my go-to now."
+                    </br> <span class="testimonial-name">Lerato P., Centurion</span>
+                </p>
+                <p>"They explained everything clearly and gave great advice on maintaining our plumbing."
+                    </br> <span class="testimonial-name">Kabelo S., Johannesburg</span>
+                </p>
+            </div>
+        </section>
+
+        <section id="request-aqoute">
+            <h3>Request a Free Quote</h3>
+            <p>Call us at 082-123-4567
         </section>
     </main>
 
     <!-- Footer section with copyright information -->
     <footer>
         <p>&copy; 2025 Mr. FixIt Plumbing</p>
+        <div class="footer-follow">
+            <p>Follow Us:</p>
+            <div class="footer-social">
+                <a href="https://facebook.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/share-facebook.png" alt="Facebook" />
+                </a>
+                <a href="https://twitter.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/X-Networking.png" alt="Twitter" />
+                </a>
+                <a href="https://instagram.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/Insta.png" alt="Instagram" />
+                </a>
+            </div>
     </footer>
 </body>
 

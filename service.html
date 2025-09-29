@@ -5,25 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services - Mr. FixIt Plumbing</title>
+    <link rel="icon" type="image/png" href="Images/Mr Fix It logo.png">
     <!-- Link to external CSS stylesheet for page styling -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Css/styles.css">
 </head>
 
 <body>
     <!-- Header section with company logo and navigation menu -->
     <header>
-        <!-- Company Logo with link back to homepage -->
+        <!-- Logo -->
         <h1>
             <a href="index.html">
-                <img src="Images/MrFixitLogo.png" alt="Mr. FixIt Plumbing Logo" />
+                <img src="Images/Logo.png" alt="Mr. FixIt Plumbing Logo">
             </a>
         </h1>
 
-        <!-- Navigation menu linking to all main pages -->
+        <!-- Hamburger toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html" class="active">Services</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -72,17 +82,40 @@
 
             </div>
         </section>
-              <!-- Testimonials Preview -->
-      <section id="testimonials">
-        <h3>Testimonials</h3>
-        <p>"Mr. FixIt came quickly and saved us from a burst geyser! Highly recommend."</p>
-        <p>"Professional and affordable service. They fixed our blocked drains in no time."</p>
-      </section>
+        <!-- Testimonials Preview -->
+        <section class="testimonials">
+            <h3>Testimonials</h3>
+            <p>"Mr. FixIt came quickly and saved us from a burst geyser! Highly recommend."
+                </br><span class="testimonial-name">Thandiwe N., Midrand</span>
+            </p>
+            <p>"Professional and affordable service. They fixed our blocked drains in no time."
+                </br><span class="testimonial-name">Kabelo S., Midrand</span>
+            </p>
+        </section>
+
+        <section id="request-aqoute">
+            <h3>Request a Free Quote</h3>
+            <p>Call us at 082-123-4567
+        </section>
+
     </main>
 
     <!-- Footer section -->
     <footer>
         <p>&copy; 2025 Mr. FixIt Plumbing</p>
+        <div class="footer-follow">
+            <p>Follow Us:</p>
+            <div class="footer-social">
+                <a href="https://facebook.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/share-facebook.png" alt="Facebook" />
+                </a>
+                <a href="https://twitter.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/X-Networking.png" alt="Twitter" />
+                </a>
+                <a href="https://instagram.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/Insta.png" alt="Instagram" />
+                </a>
+            </div>
     </footer>
 </body>
 

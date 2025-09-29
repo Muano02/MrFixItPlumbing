@@ -4,29 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="Images/Mr Fix It logo.png">
   <title>Home - Mr. FixIt Plumbing</title>
-  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="Css/styles.css">
 </head>
 
 <body>
   <!-- Header with navigation -->
   <header>
-    <!-- Company Logo with link back to homepage -->
+    <!-- Logo -->
     <h1>
       <a href="index.html">
-        <img src="Images/MrFixitLogo.png" alt="Mr. FixIt Plumbing Logo" />
+        <img src="Images/Logo.png" alt="Mr. FixIt Plumbing Logo">
       </a>
     </h1>
-    <!-- Navigation menu linking to all main pages -->
+
+    <!-- Hamburger toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation menu -->
     <nav>
       <ul>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="service.html">Services</a></li>
         <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
+
 
   <main>
     <!-- Hero Section -->
@@ -45,6 +57,7 @@
         <li>Blocked Drains</li>
         <li>Pipe Replacement</li>
       </ul>
+      </br>
       <p><a href="service.html">View All Services</a></p>
     </section>
 
@@ -56,7 +69,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section id="cta">
+    <section id="request-aqoute">
       <h3>Request a Free Quote</h3>
       <p>Call us at 082-123-4567
     </section>
@@ -64,7 +77,7 @@
     <!-- WhatsApp Button -->
     <p>
       <a href="https://wa.me/27821234567" target="_blank">
-        <img src="Images/Whatsapp.png" alt="Chat on WhatsApp" style="width:40px;height:40px;">
+        <img src="Images/Whatsapp.png" alt="Chat on WhatsApp" class="Whatsapp-button">
       </a>
     </p>
   </main>
@@ -73,6 +86,20 @@
 
   <footer>
     <p>&copy; 2025 Mr. FixIt Plumbing</p>
+    <div class="footer-follow">
+      <p>Follow Us:</p>
+      <div class="footer-social">
+        <a href="https://facebook.com/mrfixitplumbing" target="_blank">
+          <img src="Images/share-facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://twitter.com/mrfixitplumbing" target="_blank">
+          <img src="Images/X-Networking.png" alt="Twitter" />
+        </a>
+        <a href="https://instagram.com/mrfixitplumbing" target="_blank">
+          <img src="Images/Insta.png" alt="Instagram" />
+        </a>
+      </div>
+
   </footer>
 </body>
 
