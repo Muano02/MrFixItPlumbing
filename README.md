@@ -146,11 +146,12 @@ Since Mr. FixIt Plumbing currently does not have a website, the business has no 
 - **v1.4 – 05 Sep 2025:** Updated navigation bar with hamburger menu; added responsive footer  
 - **v1.5 – 10 Sep 2025:** Styled Home page; implemented responsive design with media queries  
 - **v1.6 – 27 Sep 2025:** Styled About Us page with responsive layout
-- **v2.0 – 27 Sep 2025:** Updated README with new information and reorganized HTML structure of all pages  
-- **v1.7 – 27 Sep 2025:** Styled Service page with responsive layout  
-- **v1.8 – 27 Sep 2025:** Styled Testimonial page with responsive layout  
-- **v1.9 – 27 Sep 2025:** Styled Contact Us page with responsive layout  
-- **v2.0 – 28 Sep 2025:** Updated README based on feedback.
+- **v1.7 – 27 Sep 2025:** Updated README with new information and reorganized HTML structure of all pages  
+- **v1.8 – 27 Sep 2025:** Styled Service page with responsive layout  
+- **v1.9 – 27 Sep 2025:** Styled Testimonial page with responsive layout  
+- **v2.0 – 27 Sep 2025:** Styled Contact Us page with responsive layout  
+- **v2.2 – 28 Sep 2025:** Updated README based on feedback.
+- **v2.2 – 03 Oct 2025:** Updated README changelog, renamed image files and updated HTML references accordingly.
       
 ## GitHub Commit & Code Documentation Guidelines
 - **Commit Practices:** Frequent commits with descriptive messages  
