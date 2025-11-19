@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Mr FixIT Plumbing</title>
+    <link rel="icon" type="image/png" href="Images/Mr Fix IT favicon .png">
+    <link rel="stylesheet" href="Css/styles.css">
+    <script src="Js/script.js" defer></script>
+    <meta name="description" content="Submit a service enquiry to Mr FixIT Plumbing for leak repairs, geyser installation, blocked drains, and more in Midrand.">
+    <meta name="keywords" content="service enquiry plumbing, plumbing quote Midrand, plumbing availability, plumber request">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="index.html">
+                <img src="Images/Logo.png" alt="Mr FixIT Plumbing company logo" loading="lazy">
+            </a>
+        </h1>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-section">
+            <div class="pageHeader">
+                <h2>Service Enquiry</h2>
+                <p>Tell us what you need help with. We’ll estimate cost and availability.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Enquire About a Service</h2>
+                    <form id="enquiryForm" action="#" method="post" novalidate>
+                        <div id="enquiryFields">
+                            <label for="enq-name">Full Name:</label>
+                            <input type="text" id="enq-name" name="name" placeholder="Your full name" required minlength="2">
+
+                            <label for="enq-email">Email Address:</label>
+                            <input type="email" id="enq-email" name="email" placeholder="you@example.com" required>
+
+                            <label for="enq-phone">Phone Number:</label>
+                            <input type="tel" id="enq-phone" name="phone" placeholder="082-123-4567" pattern="^(\+?\d{1,3}[- ]?)?\d{3}[- ]?\d{3}[- ]?\d{4}$">
+
+                            <label for="enq-type">Enquiry Type:</label>
+                            <select id="enq-type" name="type" required>
+                                <option value="">Select an option</option>
+                                <option value="leak-repairs">Leak Repairs</option>
+                                <option value="geyser-installation">Geyser Installation</option>
+                                <option value="blocked-drains">Blocked Drains</option>
+                                <option value="pipe-replacement">Pipe Replacement</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <label for="enq-date">Preferred Date:</label>
+                            <input type="date" id="enq-date" name="preferredDate">
+
+                            <label for="enq-message">Details:</label>
+                            <textarea id="enq-message" name="message" rows="5" placeholder="Describe the issue..." required minlength="10"></textarea>
+
+                            <button type="submit" class="btn">Get Estimate</button>
+                        </div>
+                        <p id="enquiryFeedback" aria-live="polite"></p>
+                        <button type="button" id="enquiryReset" class="btn btn-secondary" hidden>Start another enquiry</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Why We Ask</h2>
+                    <ul>
+                        <li>Service type helps us route the right technician.</li>
+                        <li>Preferred date lets us check availability.</li>
+                        <li>Details allow us to estimate cost/time upfront.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mr FixIT Plumbing</p>
+        <div class="footer-follow">
+            <p>Follow Us:</p>
+            <div class="footer-social">
+                <a href="https://facebook.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/share-facebook.png" alt="Facebook" />
+                </a>
+                <a href="https://twitter.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/X-Networking.png" alt="Twitter" />
+                </a>
+                <a href="https://instagram.com/mrfixitplumbing" target="_blank">
+                    <img src="Images/Insta.png" alt="Instagram" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
