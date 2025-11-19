@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Mr. FixIt Plumbing</title>
-    <link rel="icon" type="image/png" href="Images/Mr Fix It logo.png">
+    <title>Services - Mr FixIT Plumbing</title>
+    <link rel="icon" type="image/png" href="Images/Mr Fix IT favicon .png">
     <!-- Link to external CSS stylesheet for page styling -->
     <link rel="stylesheet" href="Css/styles.css">
+    <script src="Js/script.js" defer></script>
+    <meta name="description" content="Explore plumbing services: leak repairs, geyser installation, blocked drains, pipe replacement & maintenance in Midrand.">
+    <meta name="keywords" content="plumber Midrand, leak repair, geyser installation, blocked drains, pipe replacement, plumbing maintenance">
 </head>
 
 <body>
@@ -16,7 +19,7 @@
         <!-- Logo -->
         <h1>
             <a href="index.html">
-                <img src="Images/Logo.png" alt="Mr. FixIt Plumbing Logo">
+                <img src="Images/Logo.png" alt="Mr FixIT Plumbing Logo">
             </a>
         </h1>
 
@@ -35,6 +38,7 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="service.html" class="active">Services</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -45,47 +49,78 @@
         <!-- Services Section -->
         <section id="services">
             <h2>Our Services</h2>
+            <div class="pageHeader">
+                <input type="search" id="serviceSearch" placeholder="Search services..." aria-label="Search services">
+            </div>
 
             <!-- Services Container (for cards) -->
             <div class="services-container">
 
                 <!-- Service Card 1 -->
                 <div class="service-card">
-                    <img src="Images/Leakfix.jpg" alt="Leak Repairs">
+                    <img src="Images/Leakfix.jpg" alt="Leak repairs on taps and pipes" loading="lazy">
                     <h3>Leak Repairs</h3>
                     <p>We quickly detect and repair leaking taps, pipes, and fittings to save water and prevent damage.
                     </p>
+                    <p><a href="enquiry.html">Enquire about Leak Repairs</a></p>
                 </div>
 
                 <!-- Service Card 2 -->
                 <div class="service-card">
-                    <img src="Images/GeyserInstallation.jpg" alt="Geyser Installation">
+                    <img src="Images/GeyserInstallation.jpg" alt="Professional geyser installation" loading="lazy">
                     <h3>Geyser Installation</h3>
                     <p>We install and maintain geysers, ensuring safe and efficient hot water systems for your home or
                         business.</p>
+                    <p><a href="enquiry.html">Enquire about Geyser Installation</a></p>
                 </div>
 
                 <!-- Service Card 3 -->
                 <div class="service-card">
-                    <img src="Images/BlockDrain.jpg" alt="Blocked Drains">
+                    <img src="Images/BlockDrain.jpg" alt="Clearing blocked drains, sinks and toilets" loading="lazy">
                     <h3>Blocked Drains</h3>
                     <p>Our team uses modern tools to clear blocked drains, sinks, and toilets efficiently.</p>
+                    <p><a href="enquiry.html">Enquire about Blocked Drains</a></p>
                 </div>
 
                 <!-- Service Card 4 -->
                 <div class="service-card">
-                    <img src="Images/PipeReplacement.jpg" alt="Pipe Replacement">
+                    <img src="Images/PipeReplacement.jpg" alt="Pipe replacement and maintenance" loading="lazy">
                     <h3>Pipe Replacement & Maintenance</h3>
                     <p>We replace damaged or worn-out pipes and provide regular plumbing maintenance to avoid future
                         problems.</p>
+                    <p><a href="enquiry.html">Enquire about Pipe Replacement</a></p>
                 </div>
 
+            </div>
+        </section>
+        <!-- FAQ Accordion -->
+        <section id="services-faq" class="faq">
+            <h3>Services FAQ</h3>
+            <div class="accordion" role="tablist">
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="faq1" id="tab-faq1">Do you offer emergency plumbing?</button>
+                    <div id="faq1" class="accordion-panel" role="region" aria-labelledby="tab-faq1">
+                        <p>Yes. We provide same-day emergency callouts in Midrand and nearby suburbs.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="faq2" id="tab-faq2">How do you price leak repairs?</button>
+                    <div id="faq2" class="accordion-panel" role="region" aria-labelledby="tab-faq2">
+                        <p>Pricing depends on severity and parts. Typical range is R450–R900. Get a tailored estimate on the Enquiry page.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="faq3" id="tab-faq3">Are your geyser installations compliant?</button>
+                    <div id="faq3" class="accordion-panel" role="region" aria-labelledby="tab-faq3">
+                        <p>Absolutely. We follow SANS regulations and provide guarantees on workmanship.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Testimonials Preview -->
         <section class="testimonials">
             <h3>Testimonials</h3>
-            <p>"Mr. FixIt came quickly and saved us from a burst geyser! Highly recommend."
+            <p>"Mr FixIT came quickly and saved us from a burst geyser! Highly recommend."
                 </br><span class="testimonial-name">Thandiwe N., Midrand</span>
             </p>
             <p>"Professional and affordable service. They fixed our blocked drains in no time."
@@ -102,7 +137,7 @@
 
     <!-- Footer section -->
     <footer>
-        <p>&copy; 2025 Mr. FixIt Plumbing</p>
+        <p>&copy; 2025 Mr FixIT Plumbing</p>
         <div class="footer-follow">
             <p>Follow Us:</p>
             <div class="footer-social">

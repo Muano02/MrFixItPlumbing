@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Disallow common non-public paths (none currently)
+
+Sitemap: https://www.mrfixitplumbing.co.za/sitemap.xml
+
